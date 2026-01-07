@@ -1,0 +1,38 @@
+# ================================
+# Embedding / ML Models
+# ================================
+
+# Bỏ qua toàn bộ model embedding
+Models/embedding_model/
+
+# (Nếu sau này có nhiều model)
+Models/*model*/
+Models/*.bin
+Models/*.pt
+Models/*.pth
+Models/*.ckpt
+
+# ================================
+# NLP / BERTopic artifacts
+# ================================
+topic_models/
+bertopic_models/
+faiss_index/
+*.faiss
+*.index
+
+# ================================
+# Python
+# ================================
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+
