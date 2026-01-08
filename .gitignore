@@ -2,22 +2,23 @@
 # Embedding / ML Models
 # ================================
 
-# Bỏ qua toàn bộ model embedding
+# Embedding model (folder)
 Models/embedding_model/
 
-# (Nếu sau này có nhiều model)
-Models/*model*/
+# Topic model (FILE, not folder)
+Models/job_topic_model*
+
+# Các file model phổ biến
 Models/*.bin
 Models/*.pt
 Models/*.pth
 Models/*.ckpt
+Models/*.joblib
+Models/*.pkl
 
 # ================================
 # NLP / BERTopic artifacts
 # ================================
-topic_models/
-bertopic_models/
-faiss_index/
 *.faiss
 *.index
 
@@ -35,4 +36,3 @@ env/
 # ================================
 .DS_Store
 Thumbs.db
-
