@@ -4,9 +4,13 @@
 
 # Embedding model (folder)
 Models/embedding_model/
+Models/bge_m3_model/
 
 # Topic model (FILE, not folder)
-Models/job_topic_model*
+Models/e5_bertopic_model*
+Models/model_top2vec*
+Models/bge_bertopic_model/
+Models/labse_bertopic_model/
 
 # Các file model phổ biến
 Models/*.bin
