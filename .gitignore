@@ -1,42 +1,17 @@
-# ================================
-# Embedding / ML Models
-# ================================
+# Models & Embeddings (Loại bỏ toàn bộ thư mục)
+[Ee]mbeddings/
+[Mm]odels/
 
-# Embedding model (folder)
-Models/embedding_model/
-Models/bge_m3_model/
+# Dữ liệu lớn hoặc cache của thư viện nlp
+.cache/
+data/
 
-# Topic model (FILE, not folder)
-Models/e5_bertopic_model*
-Models/model_top2vec*
-Models/bge_bertopic_model/
-Models/labse_bertopic_model/
-
-# Các file model phổ biến
-Models/*.bin
-Models/*.pt
-Models/*.pth
-Models/*.ckpt
-Models/*.joblib
-Models/*.pkl
-
-# ================================
-# NLP / BERTopic artifacts
-# ================================
-*.faiss
-*.index
-
-# ================================
-# Python
-# ================================
+# Python environment
 __pycache__/
-*.pyc
 .venv/
 venv/
-env/
+*.pyc
 
-# ================================
-# OS
-# ================================
+# OS files
 .DS_Store
 Thumbs.db

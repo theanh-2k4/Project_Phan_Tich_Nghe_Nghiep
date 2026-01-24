@@ -1,0 +1,9 @@
+﻿Model,Coherence_Cv,Topic_Diversity,Outlier_Ratio,Silhouette,Davies_Bouldin,CH_Index,Topic_Count
+BERTopic_LaBSE,0.63,0.9,0.351,N/A,N/A,N/A,4
+BERTopic_BGE,0.6112,0.77,0.2998,N/A,N/A,N/A,30
+LDA_Final,0.5883,0.636,0.0,N/A,N/A,N/A,50
+BERTopic_E5,0.5536,0.714,0.2486,N/A,N/A,N/A,50
+KMeans_LaBSE,0.4471,0.088,0.0,0.0584,3.1072,N/A,50
+KMeans_BGE,0.4463,0.092,0.0,0.0643,3.3285,N/A,50
+KMeans_E5,0.4441,0.098,0.0,0.066,3.2922,N/A,50
+Top2Vec,0.4272,0.4607,0.0,N/A,N/A,N/A,28
